@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,38 +13,109 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a results-driven professional currently pursuing a 
+            <i>
+              <b className="purple">
+                  {" "}Master of Science in Management of Technology{" "}
+              </b> 
+            </i>
+              at 
+            <i>
+              <b className="purple">
+                  {" "}New York University.{" "}
+              </b> 
+            </i>
+              With a strong foundation in both
+            <i>
+              <b className="purple">
+                  {" "} Project Management{" "}
+              </b> 
+            </i> 
+              and
+            <i>
+              <b className="purple">
+                  {" "} Data Analytics{""}
+              </b> 
+            </i> 
+            , I specialize in bridging the gap between technical architecture and strategic business needs.
               <br />
               <br />
-              I’m proficient in
+              I possess a deep technical proficiency in
               <i>
                 <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  {" "} Python{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              and
               <i>
                 <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  {" "} R{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+             for data manipulation and statistical analysis. My expertise extends across the data landscape, with extensive experience in
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">
+                  {" "} SQL{" "}
+                </b>
               </i>
+              and managing both
+              <i>
+                <b className="purple">
+                  {" "} relational databases{" "}
+                </b>
+              </i>
+              like
+              <i>
+                <b className="purple">
+                  {" "} MySQL{" "}
+                </b>
+              </i>
+              and
+              <i>
+                <b className="purple">
+                  {" "} PostgreSQL{""}
+                </b>
+              </i>
+              , as well as
+              <i>
+                <b className="purple">
+                  {" "} non-relational databases{" "}
+                </b>
+              </i>
+              such as
+              <i>
+                <b className="purple">
+                  {" "} MongoDB{" "}
+                </b>
+              </i>
+              and
+              <i>
+                <b className="purple">
+                  {" "} The ELK Stack.{" "}
+                </b>
+              </i>
+              My expertise lies in transforming complex datasets into actionable insights using tools like
+              <i>
+                <b className="purple">
+                  {" "} Power BI{" "}
+                </b>
+              </i>
+              and
+              <i>
+                <b className="purple">
+                  {" "} Tableau{" "}
+                </b>
+              </i>
+              to drive informed decision-making and operational efficiency.
+              <br />
+              <br />
+              As a
+              <i>
+                <b className="purple">
+                  {" "}Certified Scrum Master{""}
+                </b>
+              </i>
+              , I am passionate about optimizing processes, fostering cross-functional collaboration, and leveraging data to solve high-impact global challenges
             </p>
           </Col>
           <Col md={4} className="myAvtar">

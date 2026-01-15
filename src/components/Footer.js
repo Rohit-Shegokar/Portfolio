@@ -6,65 +6,50 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import "./Footer.css";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const currentYear = new Date().getFullYear();
+  
+  const socialLinks = [
+    {
+      name: "GitHub",
+      url: "https://github.com/Rohit-Shegokar",
+      icon: <AiFillGithub />,
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/rohit-shegokar",
+      icon: <FaLinkedinIn />,
+    },
+  ];
+
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+    <footer className="footer">
+      <Container fluid>
+        <Row className="footer-content">
+          <Col xs={12} md={6} className="footer-copywright">
+            <p>Copyright © {currentYear} Rohit Shegokar. All Rights Reserved.</p>
+          </Col>
+          <Col xs={12} md={6} className="footer-social">
+            <ul className="footer-icons">
+              {socialLinks.map((social, index) => (
+                <li key={index} className="social-icons">
+                  <a
+                    href={social.url}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label={social.name}
+                  >
+                    {social.icon}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 }
 
