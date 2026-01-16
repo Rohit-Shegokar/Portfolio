@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
-import timeline from "./timeline";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Timeline from "./timeline";
 

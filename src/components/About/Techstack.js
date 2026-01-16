@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";

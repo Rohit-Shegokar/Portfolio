@@ -4,11 +4,8 @@ import homeLogo from "../../Assets/Rohit_Img.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
